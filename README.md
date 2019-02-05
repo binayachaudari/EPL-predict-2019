@@ -34,23 +34,23 @@ The plot below shows the total goals scored data, total shots on target data, to
 These data were visualized using “Seaborn” library in python.
 
 <p align="left">
-  <img src="./img/Bar\ Diagrams/totalGoalsScored_vs_Teams.png" alt="Total Goals Scored vs TeamNames"
+  <img src="./img/Bar Diagrams/totalGoalsScored_vs_Teams.png" alt="Total Goals Scored vs TeamNames"
        width="886" height="660">
 </p>
 
 
 <p align="center">
-  <img src="./img/Bar\ Diagrams/totalShotsOnTarget_vs_Teams.png" alt="Total Shots on Target vs TeamNames"
+  <img src="./img/Bar Diagrams/totalShotsOnTarget_vs_Teams.png" alt="Total Shots on Target vs TeamNames"
        width="896" height="656">
 </p>
 
 <p align="right">
-  <img src="./img/Bar\ Diagrams/totalShots_vs_Teams.png" alt="Total Shots vs TeamNames"
+  <img src="./img/Bar Diagrams/totalShots_vs_Teams.png" alt="Total Shots vs TeamNames"
        width="916" height="666">
 </p>
 
 <p align="center">
-  <img src="./img/Bar\ Diagrams/scoringRatio_vs_Teams.png" alt="Total Shots on Target vs TeamNames"
+  <img src="./img/Bar Diagrams/scoringRatio_vs_Teams.png" alt="Total Shots on Target vs TeamNames"
        width="834" height="670">
 </p>
 
