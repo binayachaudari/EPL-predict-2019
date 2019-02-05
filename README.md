@@ -48,6 +48,7 @@ These data were visualized using “Seaborn” library in python.
 ## Methodology
 * Data Preprocessing:
 After the dataset has been concatenated into a single file, only necessary features are kept into the dataset, unnecessary features such as Referee, Date, …, were dropped. There are some preprocessing steps which are done as the data get loaded into memory before training:
+
   * 10 csv files are concatenated into one csv file named “concat-season0119.csv”.
   *	Some unnecessary fields from the dataset were removed from the concatenated file. (‘Date’, ‘Referee’, ‘HTR’)
   *	New csv named “teams.csv” is created to know the teams that are playing in the league this (2018/2019) season.
@@ -55,6 +56,7 @@ After the dataset has been concatenated into a single file, only necessary featu
   *	Removed all the categorical variables that means all the categorical variables within the dataset is converted into dummy variables (numerical).
 
   For further preprocessing, following tools were used:
+
   i.	Sklearn train_test_split: used for cross validation, shuffle and split the dataset into training and testing data.
 
 
@@ -98,4 +100,5 @@ F1 score and accuracy score for test set: 0.5156 , 0.6200.
 
 ## Conclusion
 Even though the F1 score and accuracy for the training set is lower than the F1 score and accuracy of testing set, given the new data to model to classify with all features with value 0 (i.e. the game that has not been played has attributes like ‘FTAG’, ‘FTAG’, ‘HS’, ‘AS’ value 0) except for the Home Team name and the Away Team name, the trained model was able to predict future instances marginally better.
+
 Any match is highly unpredictable and there are several other factors that come into play during a game. Players’ form, strategic nuances in formation, player injuries and fatigue level etc. constitute a major part of a team’s performance in a match. Data about such characteristics is not freely available. With more information about each match statistics in the dataset, the model might be able to accurately predict the future matches. Also implementing twitter sentiment analysis about each game, and the player statistics might increase the accuracy of the model. Including these features would help us get a better understanding of how to more accurately model the data available and also which factors contribute more to a team’s victory. Further research and analysis could be carried on by applying these models in other leagues and seasons.
